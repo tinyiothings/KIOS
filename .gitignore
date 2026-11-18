@@ -1,0 +1,20 @@
+# Build artifacts
+*.bin
+*.elf
+*.map
+*.hex
+
+# Arduino / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+*.code-workspace
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (do not commit your real Wi-Fi password!!)
+secrets.h
